@@ -1,0 +1,6 @@
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<EditText android:layout_height="wrap_content" android:layout_below="@+id/lblSubmit" android:id="@+id/txtBoxName" android:layout_width="fill_parent"></EditText>
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Cancel" android:id="@+id/btnCancel" android:layout_below="@+id/txtBoxName" android:width="150px"></Button>
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btnSubmit" android:text="Submit" android:layout_below="@+id/txtBoxName" android:layout_toRightOf="@+id/btnCancel" android:width="150px"></Button>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:paddingLeft="150px" android:textSize="50px" android:paddingTop="50px" android:id="@+id/lblRound"></TextView>
+    <com.commonsware.android.simon.SimonView
+      android:id="@+id/game"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"/>
+</FrameLayout>

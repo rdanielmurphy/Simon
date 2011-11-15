@@ -1,0 +1,5 @@
+
+
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="35sp" android:text="High Scores!" android:textColor="#00FF00" android:layout_centerHorizontal="true" android:id="@+id/lblHighScores"></TextView>
+<ListView android:id="@android:id/list" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_below="@+id/lblHighScores"></ListView>
+</RelativeLayout>

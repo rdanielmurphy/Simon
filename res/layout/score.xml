@@ -1,0 +1,8 @@
+<TableLayout android:id="@+id/GridLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal"><TextView android:layout_height="wrap_content" android:id="@+id/lblUser" android:text="user" android:layout_width="wrap_content" android:layout_gravity="left" android:textColor="#FFFF66" android:textSize="20sp"></TextView><TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20sp" android:text=" - "></TextView><TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/lblScore" android:text="score" android:layout_gravity="right" android:textColor="#FFAA00" android:textSize="20sp"></TextView>
+</TableRow>
+</TableLayout>
