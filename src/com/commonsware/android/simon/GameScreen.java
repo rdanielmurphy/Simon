@@ -8,8 +8,8 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
 import android.view.View.OnClickListener;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -17,8 +17,6 @@ import android.widget.TextView;
 import com.commonsware.android.simon.SimonView.GameGUIThread;
 
 public class GameScreen extends Activity {
-	// private static final String LOG_TAG = GameScreen.class.getSimpleName();
-	private VortexView _vortexView;
 	
 	private EditText txtBoxUser;
 

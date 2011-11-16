@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 
+
 public class SubmitScore extends Activity {
 	GameDataBaseInterface db;
 	
